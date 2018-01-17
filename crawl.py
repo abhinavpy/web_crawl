@@ -4,7 +4,7 @@ import urllib
 import bs4
 import requests
 
-url_lis = ['https://en.wikipedia.org/wiki/Ankylosaurus']
+url_lis = ['https://en.wikipedia.org/wiki/Special:Random']
 print(url_lis[-1])
 for ele in url_lis:
     response = requests.get(ele)
